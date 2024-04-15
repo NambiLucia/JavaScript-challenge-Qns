@@ -2,7 +2,6 @@
 A string is palindromic if it reads the same forward and backward.
 */
 
-//function palindrome(str){
 
 
 
@@ -76,39 +75,7 @@ console.log(firstPalindrome(["car","ada","racecar"]));
 
 
 
-/*function palindrome(str) {
-    // Convert the string to an array of characters
-    const characters = s.split('');
-    // Create a reversed version of the array
-    const reversedCharacters = characters.slice().reverse();
-    // Convert the reversed array back to a string
-    const reversedString = reversedCharacters.join('');
-    // Compare the original string with the reversed string
-    return s === reversedString;
-}
 
 
 
 
-
-// function to check if word in list is a palindrome
-function isPalindrome(s) {
-    // Convert the string to an array of characters
-    const characters = s.split('');
-    // Create a reversed version of the array
-    const reversedCharacters = characters.slice().reverse();
-    // Convert the reversed array back to a string
-    const reversedString = reversedCharacters.join('');
-    // Compare the original string with the reversed string
-    return s === reversedString;
-}
-
-function firstPalindrome(words) {
-    for (let word of words) {
-        if (isPalindrome(word)) {
-            return word;
-        }
-    }
-    return "";
-}
-*/

@@ -69,16 +69,3 @@ console.log(adding(38));
 
 
 
-
-/*function addNum(num){
-    let digits=num.toString().split('');
-    let sum=digits.reduce((accumulator,currentValue) => {
-        return accumulator + parseInt(currentValue);
-        return sum
-
-
-    })
-
-
-}
-console.log(addNum(38));*/
